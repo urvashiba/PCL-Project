@@ -1,0 +1,6 @@
+# This file is used to install the required packages for the project.
+# pip install -r requirements.txt
+torch
+pandas
+pclpy
+ultralytics
