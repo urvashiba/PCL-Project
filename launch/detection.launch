@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="pcl_ai_3d_detection" type="object_detection_node" name="object_detection_node" output="screen">
+    <param name="input_image" value="c:/Users/Urvashiba Parmar/Desktop/PCL-Project/images/sample_image.jpg" />
+  </node>
+</launch>
