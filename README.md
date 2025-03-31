@@ -36,7 +36,7 @@ The PCL-Project is a robotics-focused application that combines 3D object detect
 
 **Launch the object detection node**: 
 ```bash
-roslaunch pcl_ai_3d_detection detection.launch
+roslaunch pcl_ai_3d_detection detection.launch```
 
 **Run the point cloud preprocessing node**: 
 rosrun pcl_ai_3d_detection pcl_preprocessing_node input.pcd filtered_output.pcd
