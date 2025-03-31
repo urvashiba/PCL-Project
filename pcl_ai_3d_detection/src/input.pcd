@@ -1,0 +1,16 @@
+# .PCD v0.7 - Point Cloud Data file format
+VERSION 0.7
+FIELDS x y z  #Specifies the fields for the point cloud (x, y, z coordinates).
+SIZE 4 4 4      #Each field is a 4-byte float
+TYPE F F F      #Each field is of type float.
+COUNT 1 1 1     #Each field has one value per point.
+WIDTH 5         #The point cloud contains 5 points.
+HEIGHT 1        #The point cloud is unorganized (1D).
+VIEWPOINT 0 0 0 1 0 0 0     #Specifies the sensor's viewpoint (default values here).
+POINTS 5        #Total number of points in the cloud.
+DATA ascii      #The data is stored in ASCII format.
+0.0 0.0 0.0
+1.0 0.0 0.0
+0.0 1.0 0.0
+0.0 0.0 1.0
+1.0 1.0 1.0
