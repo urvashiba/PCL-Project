@@ -27,10 +27,17 @@ The PCL-Project is a robotics-focused application that combines 3D object detect
    ```bash
    git clone https://github.com/urvashiba/PCL-Project.git
    cd PCL-Project
+   ```
 
-**Install Python dependencies**: pip install -r requirements.txt
+**Install Python dependencies**: 
+```bash
+pip install -r requirements.txt
+```
 
-**Build the ROS package**: catkin_make
+**Build the ROS package**: 
+```bash
+catkin_make
+```
 
 ## Usage :
 
@@ -40,8 +47,9 @@ roslaunch pcl_ai_3d_detection detection.launch
 ```
 
 **Run the point cloud preprocessing node**: 
+```bash
 rosrun pcl_ai_3d_detection pcl_preprocessing_node input.pcd filtered_output.pcd
-
+```
 # possible usecase:
 we can train a Custom YOLOv8 Model:
 
