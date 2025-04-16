@@ -23,11 +23,11 @@ The PCL-Project is a robotics-focused application that combines 3D object detect
 - Dependencies listed in `requirements.txt`.
 
 ## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/urvashiba/PCL-Project.git
-   cd PCL-Project
-   ```
+Clone the repository:
+ ```bash
+  git clone https://github.com/urvashiba/PCL-Project.git
+  cd PCL-Project
+ ```
 
 **Install Python dependencies**: 
 ```bash
